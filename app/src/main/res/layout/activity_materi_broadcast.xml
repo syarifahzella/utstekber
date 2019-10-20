@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BROADCAST RECEIVERS"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="500dp"
+        android:text="04.1: Clickable images"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah18"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="430dp"
+        android:text="04.2: Input controls"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah19"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="360dp"
+        android:text="04.3: Menus and pickers"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah20"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="290dp"
+        android:text="04.4: User navigation"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah21"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="220dp"
+        android:text="04.5: RecyclerView"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah22"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="HOME"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:onClick="Pindah23"/>
+</RelativeLayout>

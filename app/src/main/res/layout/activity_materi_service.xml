@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SERVICE"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="500dp"
+        android:text="03.1: The debugger"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah28"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="430dp"
+        android:text="03.2: Unit tests"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah29"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="360dp"
+        android:text="03.3: Support libraries"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah30"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="HOME"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:onClick="Pindah31"/>
+</RelativeLayout>

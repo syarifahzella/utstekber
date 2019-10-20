@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CONTENT PROVIDERS"
+        android:textSize="42dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:text="Content Providers berguna untuk manajemen data dan database. ContentProvider adalah penyedia konten dari satu aplikasi ke aplikasi lain atas perintah tertentu. Perintah tersebut ditangani oleh sebuah method dari class ContentResolver. Data dapat disimpan dalam sistem file, database atau di tempat lainnya."
+        android:textAlignment="inherit"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="430dp"
+        android:text="Contoh Syntax : \npublic class MyContentProvider extends  ContentProvider {\n
+
+   public void onCreate(){}
+
+\n}"
+        android:textAlignment="inherit"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/btncontent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="LINK MATERI"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:onClick="Pindah9"/>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BROADCAST RECEIVERS"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:text="Broadcast Receivers berguna Untuk komunikasi antar activity, aplikasi dan antar device. Broadcast Receiver berfungsi menerima pesan intent dari aplikasi lain atau dari sistem. Sebagai contoh, suatu aplikasi mengirim pesan berisi perintah tertentu untuk aplikasi lain bahwa beberapa data telah diunduh ke perangkat dan tersedia bagi mereka untuk menggunakan apklikasi tersebut, jadi Broadcast Receiver inilah yang akan menangani komunikasi ini dan akan melakukan tindakan yang tepat."
+        android:textAlignment="inherit"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="450dp"
+        android:text="Contoh Syntax : \npublic class MyReceiver  extends  BroadcastReceiver {\n
+
+   public void onReceive(context,intent){}
+
+\n}"
+        android:textAlignment="inherit"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/btnbroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="LINK MATERI"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:onClick="Pindah8"/>
+
+</RelativeLayout>
